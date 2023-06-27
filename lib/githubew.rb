@@ -1,6 +1,7 @@
+require "githubew/github"
 require "githubew/version"
+require "rest-client"
+require "thor"
+require "githubew/cli"
 
-module Githubew
-  class Error < StandardError; end
-  # Your code goes here...
-end
+module Githubew;end
